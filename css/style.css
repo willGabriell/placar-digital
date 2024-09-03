@@ -1,7 +1,10 @@
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 main{
@@ -27,19 +30,35 @@ main{
 
 .team-name {
     color: white;
-    font-weight: bold;   
+    font-weight: 600;
+    font-size: 2em; 
 }
 
 .score {
     color: yellow;
     font-weight: bold;
+    font-size: 10em;
+    padding: 20px;
 }
 
 /* Media Queries */
 
 @media (max-width: 600px) {
+    main {
+        align-items: baseline;
+    }
+
     .container {
         width: 40%;
         height: 25%;
+        margin-top: 50%
+    }
+
+    .score {
+        font-size: 4em;
+    }
+
+    .team-name {
+        font-size: 1.5em;
     }
 }
