@@ -28,6 +28,10 @@ main{
     justify-content: center;
 }
 
+.container:hover {
+    cursor: pointer;
+}
+
 .team-name {
     color: white;
     font-weight: 600;
