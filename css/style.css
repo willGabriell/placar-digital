@@ -27,22 +27,21 @@ main{
     padding: 20px;
 }
 
-.container:hover {
-    cursor: pointer;
-}
 
 .team-name {
     color: white;
     font-weight: 600;
     font-size: 2em;
-    margin-bottom: 20px; /* Espaçamento uniforme */
+    margin-bottom: 20px;
 }
 
 .score {
+    cursor: pointer;
+    padding: 1% 40px ;
     color: yellow;
     font-weight: bold;
     font-size: 10em;
-    margin-bottom: 20px; /* Espaçamento uniforme */
+    margin-bottom: 20px;
 }
 
 .minus {
@@ -54,14 +53,12 @@ main{
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-top: 20px; /* Espaçamento uniforme */
+    margin-top: 20px;
 }
 
 .minus:hover {
     background-color: rgb(132, 132, 132);
 }
-
-.minus-buttons {}
 
 /* Media Queries */
 

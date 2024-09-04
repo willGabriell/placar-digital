@@ -9,7 +9,7 @@ const awayMinus = document.querySelector('#away-minus');
 
 let homeCounter = 0;
 
-homeContainer.addEventListener('click', () => {
+homeScore.addEventListener('click', () => {
     homeCounter++;
     homeScore.innerHTML = homeCounter;
     console.log(`Placar: ${homeCounter} X ${awayCounter}`);
@@ -25,7 +25,7 @@ homeMinus.addEventListener('click', () => {
 
 let awayCounter = 0;
 
-awayContainer.addEventListener('click', () => {
+awayScore.addEventListener('click', () => {
     awayCounter++;
     awayScore.innerHTML = awayCounter;
     console.log(`Placar: ${homeCounter} X ${awayCounter}`);
